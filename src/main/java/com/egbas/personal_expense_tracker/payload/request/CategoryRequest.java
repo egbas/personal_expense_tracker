@@ -1,13 +1,12 @@
 package com.egbas.personal_expense_tracker.payload.request;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class CategoryRequest {
     private Long id;
     private String name;
